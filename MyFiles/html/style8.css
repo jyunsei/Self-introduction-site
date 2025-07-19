@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+}
+p {
+    color: white;
+    font-size: 25px;
+}
+
+img {
+    width: 160px;
+    height: 140px;
+}

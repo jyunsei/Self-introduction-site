@@ -1,0 +1,34 @@
+/* .scratch {
+    color: white;
+    background-color:red;
+}
+.minecraft p {
+    color:blue;
+}
+.html h1 {
+    background-color:orange;
+}
+.others li:nth-child(2) {
+    color: green;
+}
+.others li:nth-child(4) {
+    color: purple;
+}
+#others_text_c {
+    color: darkred;
+}
+#others_text_javascript {
+    color:darkblue
+} */
+ body{
+    background-color: lightyellow;
+ }
+ .skill {
+    background-color: lightgray;
+ }
+ .intro h1{
+    background-color: orange;
+ }
+ .skill li:nth-child(1){
+    color: red;
+ }

@@ -1,0 +1,48 @@
+/* .box {
+    position: relative;
+    color: white;
+}
+.title{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.content{
+    width: 480px;
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+} */
+body {
+    background-image: url(img/cat.png);
+    background-repeat: no-repeat;
+    color: white;
+}
+/* .box:hover {
+    opacity: 0.5;
+} */
+ 
+.box {
+    position: relative;
+    z-index: 1;
+    width: 480px;
+}
+.image img {
+    width: 100%;
+    display: block;
+}
+.title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+}
+.content {
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    z-index: 2;
+}
+.box:hover .image img {
+    opacity: 0.5;
+}

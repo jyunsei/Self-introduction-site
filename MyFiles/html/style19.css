@@ -1,0 +1,19 @@
+body{
+    background-color: skyblue;
+}
+main img{
+    width: 200px;
+    border: 5px solid white;
+}
+span{
+    color: red;
+    font-size: 10px;
+}
+.dog_p p{
+    color: gray;
+    font-style: italic;
+}
+.cat_p p{
+    color: gray;
+    font-style: italic;
+}
