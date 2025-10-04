@@ -1,0 +1,83 @@
+body{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    width: 540px;
+    padding: 0;
+     display: flex;
+     justify-content: space-between;
+} 
+
+header li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header li:hover{
+    opacity: 0.4;
+}
+
+.profile {
+    display: flex;
+    height: 370px;
+    background-color: beige;
+}
+
+.profile-text p {
+    font: 20px;
+    margin-left: 20px;
+}
+
+footer{
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.games {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game{
+    width: 300px;
+}
+
+.game h2{
+    text-align: center;
+}
+
+.study-main table th{
+    border: 1px solid black;
+    width: 360px;
+    height: 50px;
+}
+
+.study-main table td{
+    border: 1px solid black;
+    height: 80px;
+}
+
+.dream-main p{
+    font-size: 20px;
+}
+
+.dream-main img{
+    width: 300px;
+    height: 300px;
+    float: right;
+}
